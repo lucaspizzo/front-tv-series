@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { HomeStyle } from './Home.style';
 import Show from '../../components/Card';
-import { fetchShows } from '../../actions/Show';
+import { fetchShows } from '../../api/Show';
 import Loading from '../../components/Loading';
 
 
