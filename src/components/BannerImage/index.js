@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BannerImageComponent } from './bannerImage.style';
+import { BannerImageComponent } from './style';
 
 class BannerImage extends Component {
     

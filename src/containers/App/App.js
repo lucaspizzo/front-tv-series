@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from '../../components/Header';
-import { GlobalStyle } from '../../global'
+import { GlobalStyle } from '../../global/style';
 import Home from '../Home/Home';
 import Detail from '../Detail/Detail';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';

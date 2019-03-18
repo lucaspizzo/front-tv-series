@@ -14,4 +14,5 @@ export const ShowDetailsComponent = styled.div`
     h2 {
         font-style: italic;
     }
+    
 `;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ShowDetailsComponent } from './ShowDetails.style';
+import { ShowDetailsComponent } from './style';
 import Parser from 'html-react-parser';
 
 

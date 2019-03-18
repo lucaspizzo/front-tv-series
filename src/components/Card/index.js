@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { ShowComponent } from './Show.style';
+import { CardComponent } from './style';
 import { Link, } from 'react-router-dom';
 
 
-class Show extends Component {
+class Card extends Component {
     
     render() {
         return (
-            <ShowComponent className="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <CardComponent className="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div className="card justify-content-center text-center mx-auto" >
                     <img className="card-img-top" 
                         src={ (this.props.value.image || {}).medium } alt=""/>
@@ -21,10 +21,10 @@ class Show extends Component {
                         }} className="btn btn-primary btn-block"> Detalhes </Link>
                     </div>
                 </div>
-            </ShowComponent>
+            </CardComponent>
         )
     };
 };
 
 
-export default Show;
+export default Card;

@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import { BackButtonComponent } from './BackButton.style';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import {  } from 'react-router-dom';
+import React, { Component } from 'react';
+import { BackButtonComponent } from './style';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 class BackButton extends Component {
     
